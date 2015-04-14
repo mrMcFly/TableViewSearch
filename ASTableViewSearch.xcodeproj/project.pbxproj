@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80578001AA2F60200C19880 /* ASSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E80577FF1AA2F60200C19880 /* ASSection.m */; };
+		E80578351AA3B1FE00C19880 /* student.png in Resources */ = {isa = PBXBuildFile; fileRef = E80578341AA3B1FE00C19880 /* student.png */; };
+		E80EEA281AD6794700080FAB /* ASStudentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E80EEA271AD6794700080FAB /* ASStudentInfoViewController.m */; };
+		E80EEA301AD6E06F00080FAB /* Sheldon2.png in Resources */ = {isa = PBXBuildFile; fileRef = E80EEA2D1AD6E06F00080FAB /* Sheldon2.png */; };
 		E8EA16D71AA23C95007C6189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16D61AA23C95007C6189 /* main.m */; };
 		E8EA16DA1AA23C95007C6189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16D91AA23C95007C6189 /* AppDelegate.m */; };
 		E8EA16DD1AA23C95007C6189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16DC1AA23C95007C6189 /* ViewController.m */; };
@@ -14,6 +18,8 @@
 		E8EA16E21AA23C95007C6189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EA16E11AA23C95007C6189 /* Images.xcassets */; };
 		E8EA16E51AA23C95007C6189 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8EA16E31AA23C95007C6189 /* LaunchScreen.xib */; };
 		E8EA16F11AA23C95007C6189 /* ASTableViewSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16F01AA23C95007C6189 /* ASTableViewSearchTests.m */; };
+		E8EA16FC1AA23CA9007C6189 /* ASStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16FB1AA23CA9007C6189 /* ASStudent.m */; };
+		E8EA16FF1AA24268007C6189 /* NSDate+ASRandomStudentAge.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16FE1AA24268007C6189 /* NSDate+ASRandomStudentAge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E80577FE1AA2F60200C19880 /* ASSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSection.h; sourceTree = "<group>"; };
+		E80577FF1AA2F60200C19880 /* ASSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSection.m; sourceTree = "<group>"; };
+		E80578341AA3B1FE00C19880 /* student.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = student.png; sourceTree = "<group>"; };
+		E80EEA261AD6794700080FAB /* ASStudentInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStudentInfoViewController.h; sourceTree = "<group>"; };
+		E80EEA271AD6794700080FAB /* ASStudentInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStudentInfoViewController.m; sourceTree = "<group>"; };
+		E80EEA2D1AD6E06F00080FAB /* Sheldon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sheldon2.png; sourceTree = "<group>"; };
 		E8EA16D11AA23C95007C6189 /* ASTableViewSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASTableViewSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EA16D51AA23C95007C6189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EA16D61AA23C95007C6189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,10 @@
 		E8EA16EA1AA23C95007C6189 /* ASTableViewSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTableViewSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EA16EF1AA23C95007C6189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EA16F01AA23C95007C6189 /* ASTableViewSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTableViewSearchTests.m; sourceTree = "<group>"; };
+		E8EA16FA1AA23CA9007C6189 /* ASStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASStudent.h; path = ../ASStudent.h; sourceTree = "<group>"; };
+		E8EA16FB1AA23CA9007C6189 /* ASStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASStudent.m; path = ../ASStudent.m; sourceTree = "<group>"; };
+		E8EA16FD1AA24268007C6189 /* NSDate+ASRandomStudentAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ASRandomStudentAge.h"; sourceTree = "<group>"; };
+		E8EA16FE1AA24268007C6189 /* NSDate+ASRandomStudentAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ASRandomStudentAge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E80578011AA2F6E900C19880 /* NewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				E8EA16FD1AA24268007C6189 /* NSDate+ASRandomStudentAge.h */,
+				E8EA16FE1AA24268007C6189 /* NSDate+ASRandomStudentAge.m */,
+			);
+			name = NewCategory;
+			sourceTree = "<group>";
+		};
+		E80578361AA3B20300C19880 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E80EEA2D1AD6E06F00080FAB /* Sheldon2.png */,
+				E80578341AA3B1FE00C19880 /* student.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		E80EEA291AD6795600080FAB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E8EA16FA1AA23CA9007C6189 /* ASStudent.h */,
+				E8EA16FB1AA23CA9007C6189 /* ASStudent.m */,
+				E80577FE1AA2F60200C19880 /* ASSection.h */,
+				E80577FF1AA2F60200C19880 /* ASSection.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		E8EA16C81AA23C95007C6189 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +131,11 @@
 				E8EA16DB1AA23C95007C6189 /* ViewController.h */,
 				E8EA16DC1AA23C95007C6189 /* ViewController.m */,
 				E8EA16DE1AA23C95007C6189 /* Main.storyboard */,
+				E80EEA261AD6794700080FAB /* ASStudentInfoViewController.h */,
+				E80EEA271AD6794700080FAB /* ASStudentInfoViewController.m */,
+				E80EEA291AD6795600080FAB /* Data */,
+				E80578011AA2F6E900C19880 /* NewCategory */,
+				E80578361AA3B20300C19880 /* Image */,
 				E8EA16E11AA23C95007C6189 /* Images.xcassets */,
 				E8EA16E31AA23C95007C6189 /* LaunchScreen.xib */,
 				E8EA16D41AA23C95007C6189 /* Supporting Files */,
@@ -200,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EA16E01AA23C95007C6189 /* Main.storyboard in Resources */,
+				E80578351AA3B1FE00C19880 /* student.png in Resources */,
 				E8EA16E51AA23C95007C6189 /* LaunchScreen.xib in Resources */,
 				E8EA16E21AA23C95007C6189 /* Images.xcassets in Resources */,
+				E80EEA301AD6E06F00080FAB /* Sheldon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EA16DD1AA23C95007C6189 /* ViewController.m in Sources */,
+				E8EA16FF1AA24268007C6189 /* NSDate+ASRandomStudentAge.m in Sources */,
+				E8EA16FC1AA23CA9007C6189 /* ASStudent.m in Sources */,
 				E8EA16DA1AA23C95007C6189 /* AppDelegate.m in Sources */,
+				E80EEA281AD6794700080FAB /* ASStudentInfoViewController.m in Sources */,
 				E8EA16D71AA23C95007C6189 /* main.m in Sources */,
+				E80578001AA2F60200C19880 /* ASSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +470,7 @@
 				E8EA16F61AA23C95007C6189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8EA16F71AA23C95007C6189 /* Build configuration list for PBXNativeTarget "ASTableViewSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +479,7 @@
 				E8EA16F91AA23C95007C6189 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

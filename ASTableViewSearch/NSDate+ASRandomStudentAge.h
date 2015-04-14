@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  NSDate+ASRandomStudentAge.h
 //  ASTableViewSearch
 //
 //  Created by Alex Sergienko on 28.02.15.
 //  Copyright (c) 2015 Alexandr Sergienko. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UITableViewController
+@interface NSDate (ASRandomStudentAge)
 
++ (NSDate *) generateRandomAgeForStudent;
 
 @end
-
