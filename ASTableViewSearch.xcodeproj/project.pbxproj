@@ -18,8 +18,8 @@
 		E8EA16E21AA23C95007C6189 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EA16E11AA23C95007C6189 /* Images.xcassets */; };
 		E8EA16E51AA23C95007C6189 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8EA16E31AA23C95007C6189 /* LaunchScreen.xib */; };
 		E8EA16F11AA23C95007C6189 /* ASTableViewSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16F01AA23C95007C6189 /* ASTableViewSearchTests.m */; };
-		E8EA16FC1AA23CA9007C6189 /* ASStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16FB1AA23CA9007C6189 /* ASStudent.m */; };
 		E8EA16FF1AA24268007C6189 /* NSDate+ASRandomStudentAge.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16FE1AA24268007C6189 /* NSDate+ASRandomStudentAge.m */; };
+		E8F1CC271ADDA9B200758ADB /* ASStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F1CC261ADDA9B200758ADB /* ASStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +52,10 @@
 		E8EA16EA1AA23C95007C6189 /* ASTableViewSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTableViewSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EA16EF1AA23C95007C6189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EA16F01AA23C95007C6189 /* ASTableViewSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTableViewSearchTests.m; sourceTree = "<group>"; };
-		E8EA16FA1AA23CA9007C6189 /* ASStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASStudent.h; path = ../ASStudent.h; sourceTree = "<group>"; };
-		E8EA16FB1AA23CA9007C6189 /* ASStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ASStudent.m; path = ../ASStudent.m; sourceTree = "<group>"; };
 		E8EA16FD1AA24268007C6189 /* NSDate+ASRandomStudentAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ASRandomStudentAge.h"; sourceTree = "<group>"; };
 		E8EA16FE1AA24268007C6189 /* NSDate+ASRandomStudentAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ASRandomStudentAge.m"; sourceTree = "<group>"; };
+		E8F1CC251ADDA9B200758ADB /* ASStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStudent.h; sourceTree = "<group>"; };
+		E8F1CC261ADDA9B200758ADB /* ASStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		E80EEA291AD6795600080FAB /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				E8EA16FA1AA23CA9007C6189 /* ASStudent.h */,
-				E8EA16FB1AA23CA9007C6189 /* ASStudent.m */,
+				E8F1CC251ADDA9B200758ADB /* ASStudent.h */,
+				E8F1CC261ADDA9B200758ADB /* ASStudent.m */,
 				E80577FE1AA2F60200C19880 /* ASSection.h */,
 				E80577FF1AA2F60200C19880 /* ASSection.m */,
 			);
@@ -273,11 +273,11 @@
 			files = (
 				E8EA16DD1AA23C95007C6189 /* ViewController.m in Sources */,
 				E8EA16FF1AA24268007C6189 /* NSDate+ASRandomStudentAge.m in Sources */,
-				E8EA16FC1AA23CA9007C6189 /* ASStudent.m in Sources */,
 				E8EA16DA1AA23C95007C6189 /* AppDelegate.m in Sources */,
 				E80EEA281AD6794700080FAB /* ASStudentInfoViewController.m in Sources */,
 				E8EA16D71AA23C95007C6189 /* main.m in Sources */,
 				E80578001AA2F60200C19880 /* ASSection.m in Sources */,
+				E8F1CC271ADDA9B200758ADB /* ASStudent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
