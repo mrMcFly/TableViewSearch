@@ -28,13 +28,16 @@
     
     NSRange rangeForDay = [calendar rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:[calendar dateFromComponents:dateComponents]];
     NSInteger dayOfBirthDate = arc4random_uniform((int)rangeForDay.length);
+
+    // + 1 possibility of realization
+    /*
+     NSInteger periodInSecondsMin = 18 * 12 * 30 * 24 * 60 * 60;//min 18 years
+    NSInteger periodInSecondsMax = 60 * 12 * 30 * 24 * 60 * 60;//max 60 years
+    NSTimeInterval periodInSecondsRandom = periodInSecondsMin+(arc4random()%(periodInSecondsMax-periodInSecondsMin));
     
-//    NSInteger periodInSecondsMin = 18 * 12 * 30 * 24 * 60 * 60;//min 18 years
-//    NSInteger periodInSecondsMax = 60 * 12 * 30 * 24 * 60 * 60;//max 60 years
-//    NSTimeInterval periodInSecondsRandom = periodInSecondsMin+(arc4random()%(periodInSecondsMax-periodInSecondsMin));
-//    
-//    NSDate *dateOfBirth = [NSDate dateWithTimeInterval:-periodInSecondsRandom
-//                                             sinceDate:now];
+    NSDate *dateOfBirth = [NSDate dateWithTimeInterval:-periodInSecondsRandom
+                                             sinceDate:now];
+     */
 
     
     [dateComponents setDay:dayOfBirthDate];

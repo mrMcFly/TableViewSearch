@@ -15,9 +15,7 @@
 @property (strong, nonatomic) NSString     *lastName;
 @property (strong, nonatomic) NSDate       *birthDate;
 @property (strong, nonatomic) NSString     *studentPhrase;
-@property (strong, nonatomic)   UIImage      *stdImage;
-
-
+@property (strong, nonatomic) UIImage      *stdImage;
 
 + (ASStudent*) createNewStudent;
 

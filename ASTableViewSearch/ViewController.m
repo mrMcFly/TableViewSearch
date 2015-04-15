@@ -57,7 +57,6 @@ typedef enum ASSortType: NSUInteger{
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
     UIImage *studentImg = [UIImage imageNamed:@"student.png"];
     CGSize imageSize = {20, 20};
@@ -80,7 +79,6 @@ typedef enum ASSortType: NSUInteger{
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
@@ -345,29 +343,29 @@ typedef enum ASSortType: NSUInteger{
 }
 
 
-//- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-//    
-//    CATransform3D transform;
-//    transform = CATransform3DMakeRotation( (90.0*M_PI)/180, 0.0, 0.7, 0.4);
-//    transform.m34 = 1.0/ -600;
-//    
-//    cell.layer.shadowColor = [[UIColor blueColor]CGColor];
-//    cell.layer.shadowOffset = CGSizeMake(10, 10);
-//    cell.alpha = 0;
-//    
-//    cell.layer.transform = transform;
-//    cell.layer.anchorPoint = CGPointMake(0, 0.5);
-//    
-//    
-//    [UIView beginAnimations:@"transform" context:NULL];
-//    [UIView setAnimationDuration:0.5];
-//    cell.layer.transform = CATransform3DIdentity;
-//    cell.alpha = 1;
-//    cell.layer.shadowOffset = CGSizeMake(0, 0);
-//    cell.frame = CGRectMake(0, cell.frame.origin.y, cell.frame.size.width, cell.frame.size.height);
-//    [UIView commitAnimations];
-//    
-//}
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    CATransform3D transform;
+    transform = CATransform3DMakeRotation( (90.0*M_PI)/180, 0.0, 0.7, 0.4);
+    transform.m34 = 1.0/ -600;
+    
+    cell.layer.shadowColor = [[UIColor blueColor]CGColor];
+    cell.layer.shadowOffset = CGSizeMake(10, 10);
+    cell.alpha = 0;
+    
+    cell.layer.transform = transform;
+    cell.layer.anchorPoint = CGPointMake(0, 0.5);
+    
+    
+    [UIView beginAnimations:@"transform" context:NULL];
+    [UIView setAnimationDuration:0.5];
+    cell.layer.transform = CATransform3DIdentity;
+    cell.alpha = 1;
+    cell.layer.shadowOffset = CGSizeMake(0, 0);
+    cell.frame = CGRectMake(0, cell.frame.origin.y, cell.frame.size.width, cell.frame.size.height);
+    [UIView commitAnimations];
+    
+}
 
 
 #pragma mark - UISearchBarDelegate -
@@ -387,7 +385,6 @@ typedef enum ASSortType: NSUInteger{
 
     [self.indicator startAnimating];
     [self generateSectionsInBackgroundFromArray:self.studentsArray andFilterString:self.searchBar.text];
-    //[self generateSectionsFromArray:self.studentsArray andFilterString:self.searchBar.text];
 }
 
 @end
