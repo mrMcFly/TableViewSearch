@@ -269,7 +269,6 @@ typedef enum ASSortType: NSUInteger{
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     
-    //NSLog(@"number of sections %lu", (unsigned long)[self.sectionsArray count]);
     return [self.sectionsArray count];
 }
 
